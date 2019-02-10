@@ -8,6 +8,7 @@ Your exam programming challenge is to create a C program that:
 5) extra credit if you have time to trap errors, such as file not found or an ID outside the range of nStudents…
 
 Useful tips:
+
 FILE *ptr; //creates a pointer for file access
 ptr = fopen(“file name”, “r”); //opens the file to read
 int variable = fgetc(ptr); //gets one character from the file to set the integer variable
