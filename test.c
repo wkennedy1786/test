@@ -15,19 +15,25 @@ struct student
      float exam_score;
 };
 
-int main(void)
+int main(int argc; string argv[])
 {
-    // determine path to dictionary
-    string students = dirname(argv[0]);
-    char path[strlen(students) + 1 + strlen(students) + 1];
-    sprintf(path, "%s/%s", directory, FILE);
+    // remember filenames
+    char *infile = argv[1];
 
-    // load structure
-    if (!load(path))
+    // open input file
+    FILE *inptr = fopen(infile, "r");
+    if (inptr == NULL)
     {
-        printf("Could not open student list.\n");
-        return 1;
+        printf("Could not open %s.\n", infile);
+        return;
     }
+
+    // read infile's length
+    BITMAPFILEHEADER bf;
+    fread(void* FILE, sizeof(BITMAPFILEHEADER), 1, inptr);
+
+
+
 
  // TO DO
  // Read Students.txt into a struct
