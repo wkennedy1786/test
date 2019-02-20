@@ -1,5 +1,5 @@
 // Test Chapter 4 Challenge
-// You got this by "git clone https://github.com/wkennedy1786/test"
+// You got this by "git clone https://github.com/wkennedy1786/test.git"
 // Collaborate to fill in the blanks
 // Commit and push your work to github
 // Dr. Bill, Feb. 2019
